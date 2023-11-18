@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Style Guide</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa0ecc104d.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,900&family=Roboto:ital,wght@0,100;0,400;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,71 +15,83 @@
     
     <nav>
         <ul>
-            <li>Colours</li>
-            <li>Fonts</li>
-            <li>Element Styles</li>
-            <li>Contact</li>
+            <li><a href="#colours">Colours</a></li>
+            <li><a href="#Fonts">Fonts</a></li>
+            <li><a href="#Text Styles">Text Styles</a></li>
+            <li><a>Contact</a></li>
         </ul>
     </nav>
     
     <main>
-        <div class="colours">
-            <h2>Colours in HSL</h2>
 
-            <p>blueish hsla(190, 100%, 54%, 1)</p>
-
-            <p>purp hsla(287, 100%, 50%, 1)</p>
-
-            <p>brown orange hsla(8, 100%, 68%, 1)</p>
-
-            <p>hsla(155, 100%, 50%, 1) electric</p>
-        </div>
-
-        <div class="Fonts">
-            <h2>Fonts</h2>
+        <h2 id="Colours_heading">Colours in HSL</h2>
+        <div class="colours" id="colours">
             
-            <h3>Roboto</h3>
-            <p>Embrace discomfort.</p>
-            <p>Thin 100</p>
+            <div class="blue">
+                <p>hsla(190, 100%, 54%, 1)</p>
+            </div>
 
-            <p>Embrace discomfort.</p>
-            <p>Regular 400</p>
+            <div class="violet">
+                <p>hsla(287, 100%, 50%, 1)</p>
+            </div>
+            
+            <div class="orange">
+                <p>hsla(8, 100%, 68%, 1)</p>
+            </div>
 
-            <p>Embrace discomfort</p>
-            <p>Black 900 Italic</p>
-
-            <!--Montserrat-->
-            <h3>Montserrat</h3>
-            <p>Embrace discomfort.</p>
-            <p>Thin 100</p>
-
-            <p>Embrace discomfort.</p>
-            <p>Regular 400</p>
-
-            <p>Embrace discomfort.</p>
-            <p>Black 900 Italic</p>
+            <div class="electric">
+                <p>hsla(155, 100%, 50%, 1)</p>
+            </div>
         </div>
 
-        
-        <div>
-            <h2>Text Styles</h2>
+        <h2>Fonts</h2>
 
-            <h4>H1 Heading</h4>
-            <p>Font family</p>
-            <p>Font size</p>
-            <p>Font weight</p>
+        <div class="Fonts" id="Fonts">
+           
+            <div class="Roboto">
+                <h3>Roboto</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laboriosam ex quidem quaerat ipsam eveniet fugit, blanditiis molestias consequuntur quas porro ducimus rerum nostrum cumque mollitia veniam esse saepe?</p>
+            </div>
 
-            <h4>Paragraphs</h4>
-            <p>Font family</p>
-            <p>Font size</p>
-            <p>Font weight</p>
+            <div class="Montserrat">
+                <!--Montserrat-->
+                <h3>Montserrat</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex perferendis officiis, odit pariatur corrupti adipisci velit repudiandae facilis dignissimos vero iure commodi expedita tenetur aspernatur consequuntur fugiat repellendus fuga similique.</p>
+            </div>
+        </div>
 
+        <h2>Text Styles</h2>
 
+        <div class="Text_Styles" id="Text Styles">
+
+            <div class="Heading">
+                <h4>H1 Heading</h4>
+                <p>Font family: "Roboto"</p>
+                <p>Font size: "4em" </p>
+                <p>Font weight: "bold" </p>
+            </div>
+            
+            <div class="Paragraphs">
+                <h4>Paragraphs</h4>
+                <p>Font family</p>
+                <p>Font size</p>
+                <p>Font weight</p>
+            </div>
         </div>
 
 
     </main>
     
-    <footer></footer>
+    <footer>
+        <!--
+            will add contact details, and icons for social media 
+        -->
+
+        <h3>iCreate1123</h3>
+
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-regular fa-envelope"></i>
+    </footer>
 </body>
 </html>
