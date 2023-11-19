@@ -17,11 +17,10 @@ main {
 header {
  background-image: url(images/wallhaven-l3qowr.png);
  background-size: 100%;
- height: 468px;
+ height: 35vh;
  width: 100%;
  background-repeat: no-repeat;
- background-position: right;
- 
+ background-position: center;
 }
 
 h1 {
@@ -35,14 +34,14 @@ h1 {
 
 ul {
     background-color: hsla(266, 56%, 59%, 1);
-    height: 60px;
+    padding: 0.5rem;
 }
+
 ul li {
     position: relative;
-    top: 12px;
     display: inline;
     font-size: 1.9em;
-    margin-right: 350px;
+    padding-left: 2rem;
 }
 
 ul li a {
@@ -72,41 +71,34 @@ h2 {
     display: flex; 
     justify-content: space-evenly; 
     height: 148px;
-    margin: 70px 0px;
+    margin-top: 70px;
 }   
 
 .colours p {
     font-size: 1.4em;
 }
 
-.blue,
- .violet,
-  .orange,
-   .electric {
+
+
+.colours div {
     color: hsla(150, 0%, 100%, 1);
-    padding-top: 60px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
 }
 
 
-.blue {
-    width: 400px;
-    height: 148px;
+.blue {    
     background-color: hsla(190, 100%, 54%, 1);
 }  
 .violet {
-    width: 400px;
-    height: 148px;
     background-color: hsla(287, 100%, 50%, 1);
 }
 .orange {
-    width: 400px;
-    height: 148px;
     background-color: hsla(8, 100%, 68%, 1);
 }
 .electric {
-    width: 400px;
-    height: 148px;
     background-color:hsla(155, 100%, 50%, 1);
 }
 
@@ -114,39 +106,39 @@ h2 {
 
 /* Styling the fonts div */
 
-.Fonts {
+.fonts {
     display: flex;
-    justify-content: space-between;
-    margin: 70px;
-    padding: 15px;
+    justify-content: center; 
+    align-items: center;
+    padding: 2rem; /*that adds padding on the outside*/
+    gap: 1rem;  /*thats a felx property making a gap between the elements*/
 }
+
+/* CSS CLasses should be lowercase  */
 
 /* Roboto heading style  and paragraphs */
-.Roboto h3 {
+
+/*if you are repeating code there is a better way */
+
+.fonts h3 {
     text-align: center;
+    margin-bottom: 10px;
     font-size: 1.5em;
-    font-family: "Roboto";
-    margin-bottom: 10px;
 }
 
-.Roboto p {
-    justify-content: space-evenly;
-    font-family: "Roboto";
+.fonts p {
     font-size: 1.4em;
 }
+
+.Roboto {
+    font-family: "Roboto";
+}
+
 /* Montserrat heading style  and paragraphs  */
-.Montserrat h3 {
-    text-align: center;
-    font-size:  1.5em;
+.Montserrat {
     font-family: "Montserrat";
-    margin-bottom: 10px;
 }
 
-.Montserrat p {
-    justify-content: space-evenly;
-    font-family: "Montserrat";
-    font-size: 1.4em;
-}
 
 /* Style Text Styles */
 
