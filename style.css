@@ -114,9 +114,6 @@ h2 {
 
 /* Styling the fonts div */
 
-#Font_heading {
-
-}
 .Fonts {
     display: flex;
     justify-content: space-between;
@@ -167,9 +164,26 @@ h2 {
 
 footer {
     background-image: url(images/wallhaven-l3qowr.png);
-    height: 240px;
+    height: 201px;
     width: 100%;
     background-repeat: repeat-x;
     background-position: left;
+    margin: 0;
 }
 
+footer h3 {
+    position: relative;
+    top: 160px;
+
+    font-family: "Montserrat";
+    font-size: 2em;
+}
+
+
+ i {
+    position: relative;
+    top: 100px;
+    left: 1700px;
+    padding-right: 15px;
+    font-size: 3em;
+}
