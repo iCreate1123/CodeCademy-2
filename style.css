@@ -183,7 +183,9 @@ footer h3 {
  i {
     position: relative;
     top: 100px;
-    left: 1700px;
+    float: right;
     padding-right: 15px;
     font-size: 3em;
 }
+
+
